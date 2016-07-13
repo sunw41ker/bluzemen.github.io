@@ -1,0 +1,21 @@
+.user-menu{
+	display: flex;
+	flex: none;
+	align-items: center;
+	margin: 0.2em .5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #000;
+
+}
+
+
+.user-menu .userpic{
+	background: url(userpic_default.png);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.user-menu .username{
+	margin: auto .5em;
+}

@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=cyrillic);
+
+
+.logo_text {
+	display: flex;
+	flex: none;
+	align-items: center;
+	margin: .2em .1em;
+	padding: 0 .1em;
+	font-size: 3em;
+	height: 1em;
+	color: #011;
+	font-family: 'Open Sans Condensed', sans-serif;
+	/*border: 3px #FFD019 solid;*/
+}
+
+.logo_text i {
+	color: #777;
+	font-size: 0.7em;
+}
+

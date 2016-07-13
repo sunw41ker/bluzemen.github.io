@@ -1,0 +1,18 @@
+.achieves-item__num{
+	position: absolute;
+	display: block;
+	line-height: 36px;
+	width: 36px;
+	text-align: center;
+	font-size: 19px;
+	font-family: sans;
+	font-weight: bold;
+	margin: 59px 0 0 59px; 
+	z-index: 1;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}

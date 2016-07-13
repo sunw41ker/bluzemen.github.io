@@ -1,0 +1,48 @@
+.achieves-item{
+	display: inline-flex;
+	margin: 2px;
+	flex-shrink: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.achieves-item, 
+.achieves-item:after{
+	width: 90px;
+	height: 90px;
+}
+
+/* this is a big cycle in bg */
+.achieves-item{
+	border-radius: 50%;
+	color: rgba(0,0,0,0);
+	background: #f3f8fa;
+	border: solid 5px #89b8cf;	
+}
+
+/* this is a little cycle in bg */
+.achieves-item:before{
+	visibility: hidden;
+	content: "";
+	border-radius: 50%;
+	border: solid 5px #89b8cf;
+	background: #f3f8fa;
+	display: block;
+	margin: 52px 0 0 53px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+}
+
+/* this is big cycle overlay */
+.achieves-item:after{
+	content: "";
+	display: block;
+	border-radius: 50%;
+	background: #f3f8fa no-repeat center center;
+	position: absolute;
+}
+

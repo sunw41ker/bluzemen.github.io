@@ -1,0 +1,17 @@
+@import "achieves-item.css";
+@import "achieves-item__num.css";
+@import "achieves-item__img.css";
+@import "achieves-item_multiple.css";
+
+.achieves{
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/* default achieve pic */
+/*.achieves-item:after{
+	background-image: url(./ach_crystal.png);
+}*/

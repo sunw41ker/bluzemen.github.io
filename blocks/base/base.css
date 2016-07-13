@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:700&subset=cyrillic,latin);
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "logo.css";
+@import "logo_text.css";
+@import "user-menu.css";
+@import "footer.css";
+
+
+html{
+	font-family: "PT Sans", serif;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Ачивки</title>
+	<link rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./blocks/base/base.css">
+	<link rel="stylesheet" href="./blocks/achieves/achieves.css">
+	<script src="./blocks/base/jquery.js"></script>
+	<script src="./blocks/base/underscore.js"></script>
+	<script src="./blocks/achieves/achieves.js"></script>
+</head>
+
+<body>
+<header class="header">
+<div class="logo logo_text">
+	<p>Stuff<i>crm</i></p>
+</div>
+<div class="user-menu">
+	<div class="userpic"></div>
+	<a class="username" href="">John Doe</a>
+</div>
+</header>
+<section class="main">
+	<section class="data-header">
+		<h1>Ачивки пользователя</h1>
+	</section>
+	<section class="achieves">
+		<!-- 
+		<div class="achieves-item achieves-item_multiple">
+			<div class="achieves-item__img"></div>
+			<div class="achieves-item__num">2</div>
+		</div>
+		-->
+	</section> <!-- achieves -->
+</section>
+
+<section class="footer">
+
+</section>
+
+<script>
+$(function () {
+
+	// Утановим согласно задания ограничение количества добавляемых ачивок
+	achieves.countLimit = 100;
+
+	// Для демонстрации инициализируем контейнер некоторым количеством ачивок
+	// с произвольно выбранными из списков именами и изображениями 
+	var images = ['./blocks/achieves/ach_crystal-2.jpg', './blocks/achieves/ach_crystal.png'];
+	var names = ['crystal1', 'crystal2', 'crystal3', 'crystal4', 'crystal5', 'crystal6', 'crystal7'];
+
+	// Инициализируем контейнер десятью ачивками (опять же для демонстрации)
+	achieves.init($('.achieves'), 10, images, names);
+
+	// добавляем что-нибудь своё...
+	achieves.add($('.achieves'), 'crystal1', './blocks/achieves/ach_crystal.png');
+});
+</script>
+</body>
+</html>
+
